@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+    </head>
+    <body>
+        
+        <hr>
+        <h1><center>Angel's Burger</center></h1>
+        <hr>
+       
+        <strong><a href="file:///home/joy/practice-projects/restaurant-site/home.html">Home</a></strong>
+        <strong><a href="file:///home/joy/practice-projects/restaurant-site/menu.html">Menu</a></strong>
+        <strong><a href="file:///home/joy/practice-projects/restaurant-site/contact-us.html?">Contact Us</a></strong>
+        
+        <hr>
+
+        <style>
+            .body {
+                position: inherit;
+                text-align: center ;
+                margin: 100px;
+                height: 100px;
+            }
+        </style>
+        <div class="body">
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name"></input>
+            <br>
+                <label for="email">Email:</label>
+                <input type="text id="email"></input>
+            <br>
+                <label for="phone">Phone:</label>
+                <input type="text id="phone"></input>
+
+            <br>
+                <label for="reason-for-inq">Reason for Inquiry:</label>
+                <select name="reason">
+                    <option value="Catering">Catering</option>
+                    <option value="Party">Private Party</option>
+                    <option value="Feedback">Feedback</option>
+                    <option value="Other">Other</option>
+                </select> 
+            <br>
+                <label for="addtnl-Info">Additional Info:</label>
+            <br>
+
+                <textarea name="addtnl-Info"></textarea>
+            <br>
+                <label for="guest">Have you been to the Restaurant?</label>
+                <input type="radio" name="answer" value="yes" checked>Yes</input>
+                <input type="radio" name="answer" value="no">No</input>
+            <br>
+                <label for="availability">Best days to contact you:</label>
+                <input type="checkbox" name="days" value="mon" checked>M</input>
+                <input type="checkbox" name="days" value="tues" >T</input>
+                <input type="checkbox" name="days" value="wed" >W</input>
+                <input type="checkbox" name="days" value="thurs" >TH</input>
+                <input type="checkbox" name="days" value="fri" >F</input>  
+            <br>       
+                <input type="button"  name="submit" value="Send Request"></input>
+            </form>
+        </div>
+        
+        <style>
+           
+            .footer {
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background-color:lightgray;
+                color: black;
+                text-align: center;
+                }
+         </style>
+                
+                
+        
+                <div class="footer">
+                    <center><address><p>118 San Guillermo Ave, Pasig, 1600 Metro Manila, Philippines</p></address></center>
+                    <center><p> +63 975 271 5747</p></center>
+                </div>
+                
+    
+
+    </body>
+</html>
